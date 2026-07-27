@@ -168,3 +168,51 @@ var result = ((num + 5) * 10) / 2;
 document.write("<br/>");
 
 document.write("Final Result: " + result);
+
+// q no 11
+
+var currentYear = 2025;
+var birthYear = 2002;
+
+var age1 = currentYear - birthYear;
+var age2 = age1 - 1;
+
+document.write("<h1>Age Calculator</h1>");
+
+document.write("Current Year: " + currentYear + "<br>");
+document.write("Birth Year: " + birthYear + "<br>");
+document.write("They are either " + age2 + " or " + age1 + " years old.");
+
+// q n0 12
+
+
+var radius = 20;
+
+var circumference = 2 * Math.PI * radius;
+var area = 3.142 * radius * radius;
+
+document.write("<h1>The Geometrizer</h1>");
+
+document.write("Radius of a circle: " + radius + "<br>");
+document.write("The circumference is: " + circumference + "<br>");
+document.write("The area is: " + area);
+
+// q no 13
+
+var favoriteSnack = "Chips";
+var currentAge = 20;
+var maximumAge = 80;
+var snackPerDay = 2;
+
+var remainingYears = maximumAge - currentAge;
+
+var totalSnacks = remainingYears * 365 * snackPerDay;
+
+document.write("<h1>Lifetime Supply Calculator</h1>");
+
+document.write("Favorite Snack: " + favoriteSnack + "<br>");
+document.write("Current Age: " + currentAge + "<br>");
+document.write("Estimated Maximum Age: " + maximumAge + "<br>");
+document.write("Amount of snacks per day: " + snackPerDay + "<br><br>");
+
+document.write("You will need " + totalSnacks + " " + favoriteSnack + " to last you until the ripe old age of " + maximumAge + ".");
