@@ -88,19 +88,83 @@ document.write("<br/>");
 // question no 5
 
 // var table = 4;
-// table = table +1
-// document.write("Table of 4");
-// document.write(table+"x"+count+"="+table);  // ise thek kr k solve krna hai
+document.write("Table of 4", "<br/>");
+var num = 4;
+document.write(num + "x1=" + num*1 , "<br/>");
+document.write(num + "x2=" + num*2 , "<br/>");
+document.write(num + "x3=" + num*3 ,"<br/>");
+document.write(num + "x4=" + num*4 , "<br/>");
+document.write(num + "x5=" + num*5 ,"<br/>");
+document.write(num + "x6=", + num*6 ,"<br/>");
+document.write(num + "x7=", + num*7, "<br/>");
+document.write(num + "x8=", + num*8, "<br/>");
+document.write(num + "x9=", + num*9, "<br/>");
+document.write(num + "x10=", + num*10, "<br/>");
 
 document.write("<br/>");
 // question no 6
+//smjhna hai
 
-var celsius = 25°C;
-var farhenhite = celsius * 9/5;
-document.write(celsius+"°C" ,farhenhite+"°F");
-
+var celsius = 25;
 
 
+var fahrenheit = (celsius * 9 / 5) + 32;
+document.write(celsius + "°C is " + fahrenheit + "°F");
+
+var fahr = 70;
+
+var cels = (fahr - 32) * 5 / 9;
+document.write("<br>" + fahr + "°F is " + cels + "°C");
+
+// question no 7 pratice
+document.write("<br/><br/>");
+document.write("Shopping Cart");
+var priceOfItem_1 = 650;
+var quantityOfItem_1 = 3;
+var priceOfItem_2 = 100;
+var quantityOfItem_2 = 7;
+var shipping_charges = 100;
+var totalItemOne = priceOfItem_1 * quantityOfItem_1;     //650*3=1950
+var totalItemTwo = priceOfItem_2 * quantityOfItem_2;     //100*7=700
+var totalCost = totalItemOne + totalItemTwo + shipping_charges;   //1950+700+100=2750
+document.write("<br/>");
+     document.write("Price of Item one : ", priceOfItem_1,"<br/><br");
+     document.write("Quantity of Item one :" ,quantityOfItem_1,"<br/>");
+     document.write("Price Of Item Two:", priceOfItem_2, "<br/>");
+     document.write("Quantity Of Item Two :", quantityOfItem_2, "<br/>");
+     document.write("Shipping Charges Of :", shipping_charges, "<br/><br/>");
+     document.write("Total Cost Of Your Order Is:",totalCost,"<br/>");
+
+// question no 8
+var totalMarks = 980;
+var obtainsMarks = 804;
+document.write("Total marks :" ,totalMarks ,"<br/>");
+document.write("Obtains marks :", obtainsMarks , "<br/>");
+document.write("Percentage :" + (804/980)*100,"%");
+
+// question no 9
 
 
+var usd = 10;
+var sar = 25;
 
+
+var usdRate = 277.808;      // 1 USD = 277.808 PKR
+var sarRate = 74.0352;      // 1 SAR = 74.0352 PKR
+
+
+var totalPKR = (usd * usdRate) + (sar * sarRate);
+
+document.write("<br/>");
+document.write("Currency in PKR");
+document.write("<br/>");
+document.write("Total Currency in PKR: ", + totalPKR);
+
+// q no 10
+
+var num = 10;
+
+var result = ((num + 5) * 10) / 2;
+document.write("<br/>");
+
+document.write("Final Result: " + result);
