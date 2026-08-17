@@ -78,7 +78,7 @@ if (hour < 18) {
 
 
 var time = prompt("Enter time in 24-hour clock format (e.g., 1900 for 7 PM):");
-if (time >= 0000 && time < 1200) {
+if (time >=" 0000" && time < 1200) {
     alert("Good morning!");
 } else if (time >= 1200 && time < 1700) {
     alert("Good afternoon!");
